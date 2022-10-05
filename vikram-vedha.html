@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Bootstrap CDN -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<!-- Adding CSS -->
+	<link rel="stylesheet" type="text/css" href="css/vikram-vedha.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<!-- Bootstrap Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<title>Movie Details</title>
+</head>
+<body>
+
+	<!-- Movie Banner & Full Details Of Movie Section -->
+	<section>
+		
+		<div class="movie-banner-container position-relative">		<!-- Movie Banner Container -->
+			<a href="https://www.youtube.com/watch?v=hpwnlr-ZHB0" target="_blank"><i class="far fa-play-circle fa-icon"></i></a>
+		</div>
+
+		<div class="container-fluid movie-details-container">		<!-- Full Details Of Movie Container -->
+			<div class="row">
+
+				<!-- Poster Container -->
+				<div class="col-4 col-lg-2">
+					<div>		<!-- Container -->
+						<div class="po-img">
+							<img src="assets/fighter-2022-0.jfif" alt="Vikram Vedha" width="100%" height="auto">
+						</div>
+						<div>
+							<span class="font-weight-light font-italic">Vikram Vedha</span>
+						</div>
+						<div>
+							<span class="badge badge-pill badge-dark">2D</span>
+							<span class="badge badge-pill badge-dark">3D</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Movie Details Middle Container -->
+				<div class="col-8 col-lg-7">
+					<!-- Main Container -->
+					<div>
+						<div class="mb-2 text-light">
+							<h3>Vikram Vedha</h3>
+						</div>
+
+						<div class="mb-1 text-light">
+							<span><i class="fas fa-film"></i> Hindi</span>
+						</div>
+
+						<div class="mb-2">
+							<span class="badge badge-pill badge-secondary font-weight-light mr-1">Action</span>
+							<span class="badge badge-pill badge-secondary font-weight-light mr-1">Crime</span>
+							<span class="badge badge-pill badge-secondary font-weight-light">Thriller</span>
+						</div>
+
+						<div class="mb-3 small text-light">
+							<span class="mr-3"><i class="far fa-calendar-alt"></i> 2022</span>
+							<span><i class="far fa-clock"></i> 2 hrs 40 mins</span>
+						</div>
+
+						<!-- Rating Container -->
+						<div class="row mb-5">
+							<div class="col-6 col-lg-3">
+								<div>
+									<div class="lead">
+										<span><i class="fas fa-heart text-danger"></i></span>
+										<span class="font-weight-normal">71%</span>
+									</div>
+									<div class="small text-muted">
+										<small>90,436 votes</small>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-6 col-lg-3">
+								<div>
+									<div>
+										<span class="font-weight-normal lead">3.6</span>
+										<small><i class="fas fa-star small"></i></small>
+									</div>
+									<div class="small text-muted text-uppercase">
+										<small>critics rating</small>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-6 col-lg-3">
+								<div>
+									<div>
+										<span class="font-weight-normal lead">4.4</span>
+										<small><i class="fas fa-star small"></i></small>
+									</div>
+									<div class="small text-muted text-uppercase">
+										<small>users ratings</small>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-6 col-lg-3">
+								<div>
+									<div>
+										<small><i class="fas fa-star small"></i></small>
+										<span class="font-weight-normal lead">0.0</span>
+									</div>
+									<div class="small text-muted text-uppercase">
+										<small>rate it</small>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Summary, User & Critic Reviews Tab Container -->
+						<div>
+							<!-- Tab Container -->
+							<div>
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active" data-toggle="tab" href="#summary-tab">Summary</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" data-toggle="tab" href="#u-reviews-tab">User Reviews</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" data-toggle="tab" href="#r-reviews-tab">Critic Reviews</a>
+									</li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+
+									<!-- Summary Tab Container -->
+									<div id="summary-tab" class="container-fluid tab-pane active">
+
+										<div class="mt-5">		<!-- Synopsis Container -->
+											<p class="font-weight-bold text-uppercase">synopsis</p>
+											<p class="small text-secondary">Vikram Vedha is an action-thriller showcasing the face-off between a tough cop Vikram (Saif Ali Khan) and a dreaded gangster Vedha (Hrithik Roshan). The film underlines `between Good & Evil, what you choose, defines you`.</p>
+										</div>
+
+										<div class="mt-5">		<!-- Cast Container -->
+											<p class="font-weight-bold text-uppercase">cast</p>
+											<!-- Movie Cast Carousel Container -->
+											<div class="mt-5">
+												<div id="cast-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+													<!-- The Slideshow -->
+													<div class="container carousel-inner">
+														<div class="carousel-item active">		<!-- First Slide -->
+															<!-- First Flex Slide Box -->
+															<div class="d-flex justify-content-around">
+																<div>
+																	<img class="rounded-circle" src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/saif-ali-khan-1978-12-09-2017-04-45-17.jpg" alt="Saif Ali Khan">
+																	<p class="small text-center text-info m-1">Saif Ali Khan</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/hrithik-roshan-833-1664534672.jpg" alt="Hrithik Roshan">
+																	<p class="small text-center text-info mt-1">Hrithik Roshan</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/radhika-apte-3730-05-09-2019-06-37-49.jpg" alt="Radhika Apte">
+																	<p class="small text-center text-info mt-1">Radhika Apte</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/rohit-saraf-2002253-1654245030.jpg" alt="Rohit Saraf">
+																	<p class="small text-center text-info mt-1">Rohit Saraf</p>
+																</div>
+															</div>
+														</div>
+
+														<div class="carousel-item">		<!-- Second Slide -->
+															<!-- Second Flex Slide Box -->
+															<div class="d-flex justify-content-around">
+																<div>
+																	<img class="rounded-circle" src="./img/vijay-raaz.jpg" alt="Vijay Raaz">
+																	<p class="small text-center text-info mt-1">Vijay Raaz</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="./img/alia-bhatt.jpg" alt="Alia Bhatt">
+																	<p class="small text-center text-info mt-1">Alia Bhatt</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="./img/kalki-koechlin.jpg" alt="Radhika Apte">
+																	<p class="small text-center text-info mt-1">Radhika Apte</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="./img/siddhant-chaturvedi.jpg" alt="Rohit Saraf">
+																	<p class="small text-center text-info mt-1">Rohit Saraf</p>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Left and Right Controls -->
+													<a class="carousel-control-prev" href="#cast-carousel" data-slide="prev">
+														<span class="lead text-muted"><i class="fas fa-chevron-left"></i></span>
+													</a>
+													<a class="carousel-control-next" href="#cast-carousel" data-slide="next">
+														<span class="lead text-muted"><i class="fas fa-chevron-right"></i></span>
+													</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="mt-5 mb-5">		<!-- Crew Container -->
+											<p class="font-weight-bold text-uppercase">crew</p>
+											<!-- Movie Crew Carousel Container -->
+											<div class="mt-5">
+												<div id="crew-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+													<!-- The Slideshow -->
+													<div class="container carousel-inner">
+														<div class="carousel-item active">		<!-- First Slide -->
+															<!-- First Flex Slide Box -->
+															<div class="d-flex justify-content-around">
+																<div>
+																	<img class="rounded-circle" src="./img/ranveer-singh.jpg" alt="Ranveer Singh">
+																	<p class="small text-center text-info mt-1">Ranveer Singh</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="./img/alia-bhatt.jpg" alt="Alia Bhatt">
+																	<p class="small text-center text-info mt-1">Alia Bhatt</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="./img/kalki-koechlin.jpg" alt="Radhika Apte">
+																	<p class="small text-center text-info mt-1">Radhika Apte</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="./img/siddhant-chaturvedi.jpg" alt="Rohit Saraf">
+																	<p class="small text-center text-info mt-1">Rohit Saraf</p>
+																</div>
+															</div>
+														</div>
+
+														<div class="carousel-item">		<!-- Second Slide -->
+															<!-- Second Flex Slide Box -->
+															<div class="d-flex justify-content-around">
+																<div>
+																	<img class="rounded-circle" src="./img/vijay-raaz.jpg" alt="Vijay Raaz">
+																	<p class="small text-center text-info mt-1">Vijay Raaz</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="./img/alia-bhatt.jpg" alt="Alia Bhatt">
+																	<p class="small text-center text-info mt-1">Alia Bhatt</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="./img/kalki-koechlin.jpg" alt="Radhika Apte">
+																	<p class="small text-center text-info mt-1">Radhika Apte</p>
+																</div>
+																<div>
+																	<img class="rounded-circle" src="./img/siddhant-chaturvedi.jpg" alt="Rohit Saraf">
+																	<p class="small text-center text-info mt-1">Rohit Saraf</p>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Left and Right Controls -->
+													<a class="carousel-control-prev" href="#crew-carousel" data-slide="prev">
+														<span class="lead text-muted"><i class="fas fa-chevron-left"></i></span>
+													</a>
+													<a class="carousel-control-next" href="#crew-carousel" data-slide="next">
+														<span class="lead text-muted"><i class="fas fa-chevron-right"></i></span>
+													</a>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div id="u-reviews-tab" class="tab-pane fade"><br>
+										<h3>Menu 1</h3>
+										<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									</div>
+
+									<div id="r-reviews-tab" class="tab-pane fade"><br>
+										<h3>Menu 2</h3>
+										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Movie Details last Container - Book Ticket Aside Container -->
+				<div class="col-12 col-lg-3 movie-details-last-container">
+					<!-- Container -->
+					<div>
+						<div class="mb-4 text-right">
+							<span><i class="fab fa-facebook-f mr-2 text-primary lead"></i></span>
+							<span><i class="fab fa-twitter mr-2 text-primary lead"></i></span>
+							<span><i class="fab fa-pinterest mr-2 text-danger lead"></i></span>
+							<span><i class="fab fa-google mr-2 text-danger lead"></i></span>
+						</div>
+
+						<div>
+							<button type="button" class="btn btn-primary btn-block font-weight-light bt-btn"><a href="ticket-booking.html">BOOK TICKETS</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- You Might Also Like Section -->
+	<section class="bg-light p-2">
+		<div class="p-5">		<!-- Main Container -->
+			<h4 class="text-center text-uppercase font-weight-normal">you might also like</h4>
+			<hr class="w-25 bg-danger">
+
+			<!-- Carousel -->
+			<div id="also-like-carousel" class="carousel slide p-3" data-ride="carousel" data-interval="false">
+
+				<!-- The slideshow -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">		<!-- First Slide -->
+						<!-- First Flex Box -->
+						<div class="d-flex justify-content-around">
+
+							<div>
+								<div>
+									<img src="img/gully-boy.jpg" alt="Gully Boy">
+								</div>
+								<div class="movie-description-container position-relative bg-white text-dark p-1 pl-2">
+									<div class="font-weight-bold">Gully Boy</div>
+									<small class="text-secondary">Hindi • Feb 22 2019 • U/A</small>
+									<div class="movie-like-container pr-2">
+										<span><i class="fas fa-heart text-danger"></i> 86%</span>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div>
+									<img src="img/gully-boy.jpg" alt="Gully Boy">
+								</div>
+								<div class="movie-description-container position-relative bg-white text-dark p-1 pl-2">
+									<div class="font-weight-bold">Gully Boy</div>
+									<small class="text-secondary">Hindi • Feb 22 2019 • U/A</small>
+									<div class="movie-like-container pr-2">
+										<span><i class="fas fa-heart text-danger"></i> 86%</span>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div>
+									<img src="img/gully-boy.jpg" alt="Gully Boy">
+								</div>
+								<div class="movie-description-container position-relative bg-white text-dark p-1 pl-2">
+									<div class="font-weight-bold">Gully Boy</div>
+									<small class="text-secondary">Hindi • Feb 22 2019 • U/A</small>
+									<div class="movie-like-container pr-2">
+										<span><i class="fas fa-heart text-danger"></i> 86%</span>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div>
+									<img src="img/gully-boy.jpg" alt="Gully Boy">
+								</div>
+								<div class="movie-description-container position-relative bg-white text-dark p-1 pl-2">
+									<div class="font-weight-bold">Gully Boy</div>
+									<small class="text-secondary">Hindi • Feb 22 2019 • U/A</small>
+									<div class="movie-like-container pr-2">
+										<span><i class="fas fa-heart text-danger"></i> 86%</span>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div>
+									<img src="img/gully-boy.jpg" alt="Gully Boy">
+								</div>
+								<div class="movie-description-container position-relative bg-white text-dark p-1 pl-2">
+									<div class="font-weight-bold">Gully Boy</div>
+									<small class="text-secondary">Hindi • Feb 22 2019 • U/A</small>
+									<div class="movie-like-container pr-2">
+										<span><i class="fas fa-heart text-danger"></i> 86%</span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="carousel-item">		<!-- Second Slide -->
+						<!-- Second Flex Box -->
+						<div class="d-flex justify-content-around">
+
+							<div>
+								<div>
+									<img src="img/gully-boy.jpg" alt="Gully Boy">
+								</div>
+								<div class="movie-description-container position-relative bg-white text-dark p-1 pl-2">
+									<div class="font-weight-bold">Gully Boy</div>
+									<small class="text-secondary">Hindi • Feb 22 2019 • U/A</small>
+									<div class="movie-like-container pr-2">
+										<span><i class="fas fa-heart text-danger"></i> 86%</span>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div>
+									<img src="img/gully-boy.jpg" alt="Gully Boy">
+								</div>
+								<div class="movie-description-container position-relative bg-white text-dark p-1 pl-2">
+									<div class="font-weight-bold">Gully Boy</div>
+									<small class="text-secondary">Hindi • Feb 22 2019 • U/A</small>
+									<div class="movie-like-container pr-2">
+										<span><i class="fas fa-heart text-danger"></i> 86%</span>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div>
+									<img src="img/gully-boy.jpg" alt="Gully Boy">
+								</div>
+								<div class="movie-description-container position-relative bg-white text-dark p-1 pl-2">
+									<div class="font-weight-bold">Gully Boy</div>
+									<small class="text-secondary">Hindi • Feb 22 2019 • U/A</small>
+									<div class="movie-like-container pr-2">
+										<span><i class="fas fa-heart text-danger"></i> 86%</span>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div>
+									<img src="img/gully-boy.jpg" alt="Gully Boy">
+								</div>
+								<div class="movie-description-container position-relative bg-white text-dark p-1 pl-2">
+									<div class="font-weight-bold">Gully Boy</div>
+									<small class="text-secondary">Hindi • Feb 22 2019 • U/A</small>
+									<div class="movie-like-container pr-2">
+										<span><i class="fas fa-heart text-danger"></i> 86%</span>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div>
+									<img src="img/gully-boy.jpg" alt="Gully Boy">
+								</div>
+								<div class="movie-description-container position-relative bg-white text-dark p-1 pl-2">
+									<div class="font-weight-bold">Gully Boy</div>
+									<small class="text-secondary">Hindi • Feb 22 2019 • U/A</small>
+									<div class="movie-like-container pr-2">
+										<span><i class="fas fa-heart text-danger"></i> 86%</span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#also-like-carousel" data-slide="prev">
+					<span class="lead text-muted"><i class="fas fa-chevron-left"></i></span>
+				</a>
+				<a class="carousel-control-next" href="#also-like-carousel" data-slide="next">
+					<span class="lead text-muted"><i class="fas fa-chevron-right"></i></span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
