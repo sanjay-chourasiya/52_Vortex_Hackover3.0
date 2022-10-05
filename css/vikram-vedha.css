@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+
+/* Movie Banner Container */
+.movie-banner-container {
+	background-image: url("https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/vikram-vedha-et00319143-1663323973.jpg");
+	width: 100%;
+	height: 380px;
+	background-size: cover;
+}
+.movie-banner-container a {
+	position: absolute;
+	bottom: 40%;
+	left: 50%;
+	font-size: 40px;
+}
+
+.bt-btn, .bt-btn:active, .bt-btn:visited {
+	background-color: #5a2e98;
+	border: 1px #5a2e98 solid !important;
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
+.bt-btn:hover, .bt-btn:active:hover, .bt-btn:visited:hover {
+	background-color: #fff !important;
+	color: #5a2e98 !important;
+	border: 1px #5a2e98 solid !important;
+	text-decoration: none;
+}
+
+.fa-icon {
+	color: #5a2e98;
+}
+
+.po-img img {
+	border-radius: 8px;
+}
+
+.text-info {
+	color: #5a2e98 !important;
+}
+
+/*--------------------Full Details Of Movie Container--------------------*/
+.movie-details-container {
+	padding: 0 120px;
+	margin-top: -125px;
+}
+
+/* Movie Details Middle Container */
+
+	/* Movie Cast & Crew Carousel Container */
+	#cast-carousel img,
+	#crew-carousel img {
+		width: 110px;
+		height: 110px;
+	}
+	#summary-tab .carousel-control-prev,
+	#summary-tab .carousel-control-next {
+		width: 5%;
+	}
+
+/* Movie Details last Container - Book Ticket Aside Container */
+.movie-details-last-container {
+	margin-top: 95px;
+}
+
+
+
+/*--------------------You Might Also Like Section Container--------------------*/
+.movie-description-container .movie-like-container {
+	position: absolute;
+	bottom: 30px;
+	right: 3px;
+	font-size: 13px;
+}
+#also-like-carousel img {
+	width: 230px;
+	height: auto;
+}
+#also-like-carousel .carousel-control-prev,
+#also-like-carousel .carousel-control-next {
+	width: 2%;
+}
+
+
+
+/*--------------------Media Queries--------------------*/
+@media screen and (max-width: 576px) {
+
+	/* Full Details Of Movie Container */
+	.movie-details-container {
+		padding: 0 10px;
+	}
+
+}
